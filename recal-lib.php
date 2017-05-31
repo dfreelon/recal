@@ -116,7 +116,7 @@ exit;
 
 function errorEnd($err, $errMsg, $logFile){
 
-//reverse the less-than sign below to enable error logging
+//reverse the greater-than sign below to disable error logging
 
 	if($err > 0){ 
 		$newfile = "Error code " . $err . " encountered by " . $_SERVER['REMOTE_ADDR'] . " on " . date('m-d-Y G:i O') . " with file " . $_FILES['file']['name'] . "\n";
